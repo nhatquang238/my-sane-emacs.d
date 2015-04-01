@@ -21,6 +21,10 @@
     undo-tree
     yasnippet
     magit
+    aggressive-indent
+    discover-my-major
+    guide-key
+    evil-nerd-commenter
     ) "a list of packages to install at launch.")
 
 (require 'cl)

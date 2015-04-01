@@ -15,6 +15,9 @@
 (load "~/.emacs.d/cfg-helm.el")
 (load "~/.emacs.d/cfg-helm-swoop.el")
 (load "~/.emacs.d/cfg-helm-projectile.el")
+(load "~/.emacs.d/cfg-aggressive-indent.el")
+(load "~/.emacs.d/cfg-guide-key.el")
+(load "~/.emacs.d/cfg-evil-nerd-commenter.el")
 ;; language specific
 (load "~/.emacs.d/cfg-jedi.el")
 (load "~/.emacs.d/cfg-coffee.el")

@@ -25,6 +25,9 @@
     discover-my-major
     guide-key
     evil-nerd-commenter
+    smart-mode-line
+    nyan-mode
+    helm-projectile
     ) "a list of packages to install at launch.")
 
 (require 'cl)

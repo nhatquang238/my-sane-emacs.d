@@ -18,6 +18,7 @@
     auto-complete
     helm
     helm-swoop
+    helm-ag
     undo-tree
     yasnippet
     magit
@@ -28,6 +29,7 @@
     smart-mode-line
     nyan-mode
     helm-projectile
+    ace-jump-mode
     ) "a list of packages to install at launch.")
 
 (require 'cl)

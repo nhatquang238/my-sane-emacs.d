@@ -14,3 +14,5 @@
 (global-set-key (kbd "M-I") 'helm-swoop-back-to-last-point)
 (global-set-key (kbd "C-c M-i") 'helm-multi-swoop)
 (global-set-key (kbd "C-x M-i") 'helm-multi-swoop-all)
+;; ace-jump-mode
+(global-set-key (kbd "C-c SPC") 'ace-jump-mode)

@@ -13,6 +13,7 @@
     smex
     projectile
     ido
+    jedi
     flx-ido
     ido-vertical-mode
     auto-complete
@@ -30,6 +31,7 @@
     nyan-mode
     helm-projectile
     ace-jump-mode
+    linum-relative
     ) "a list of packages to install at launch.")
 
 (require 'cl)

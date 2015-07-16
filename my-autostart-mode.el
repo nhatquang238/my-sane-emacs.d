@@ -1,0 +1,5 @@
+(setq auto-mode-alist (cons '("\\.html$" . web-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.styl$" . jade-mode) auto-mode-alist))
+(add-hook 'python-mode-hook 'ws-butler-mode)
+(add-hook 'coffee-mode-hook 'ws-butler-mode)
+(add-hook 'js-mode-hook 'js2-minor-mode)

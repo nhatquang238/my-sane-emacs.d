@@ -32,6 +32,11 @@
     helm-projectile
     ace-jump-mode
     linum-relative
+    emmet-mode
+    web-mode
+    ws-butler
+	js2-mode
+	ac-js2
     ) "a list of packages to install at launch.")
 
 (require 'cl)

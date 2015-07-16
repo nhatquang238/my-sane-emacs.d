@@ -20,6 +20,9 @@
 (load "~/.emacs.d/cfg-evil-nerd-commenter.el")
 (load "~/.emacs.d/cfg-org-mode.el")
 (load "~/.emacs.d/cfg-linum-relative.el")
+(load "~/.emacs.d/cfg-web-mode.el")
+(load "~/.emacs.d/cfg-emmet-mode.el")
 ;; language specific
 (load "~/.emacs.d/cfg-jedi.el")
 (load "~/.emacs.d/cfg-coffee.el")
+(load "~/.emacs.d/cfg-javascript.el")

@@ -12,3 +12,4 @@
 ;; tab to complete, then indent
 (setq tab-always-indent 'complete)
 (add-to-list 'completion-styles 'initials t)
+(setq-default tab-width 4)

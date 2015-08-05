@@ -37,6 +37,11 @@
     ws-butler
 	js2-mode
 	ac-js2
+	flycheck
+	exec-path-from-shell
+	react-snippets
+	tern
+	tern-auto-complete
     ) "a list of packages to install at launch.")
 
 (require 'cl)

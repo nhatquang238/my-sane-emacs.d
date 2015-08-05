@@ -3,6 +3,7 @@
 
 ;;;; loading dependency setup
 ;; utils
+(load "~/.emacs.d/cfg-exec-path-from-shell.el")
 (load "~/.emacs.d/cfg-switch-window.el")
 (load "~/.emacs.d/cfg-smex.el")
 (load "~/.emacs.d/cfg-projectile.el")
@@ -26,3 +27,4 @@
 (load "~/.emacs.d/cfg-jedi.el")
 (load "~/.emacs.d/cfg-coffee.el")
 (load "~/.emacs.d/cfg-javascript.el")
+(load "~/.emacs.d/cfg-jsx.el")

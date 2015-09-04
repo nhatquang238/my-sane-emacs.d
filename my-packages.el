@@ -42,6 +42,7 @@
 	react-snippets
 	tern
 	tern-auto-complete
+	json-mode
     ) "a list of packages to install at launch.")
 
 (require 'cl)

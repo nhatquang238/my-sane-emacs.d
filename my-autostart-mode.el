@@ -4,3 +4,5 @@
 (add-hook 'python-mode-hook 'ws-butler-mode)
 (add-hook 'coffee-mode-hook 'ws-butler-mode)
 (add-hook 'js-mode-hook 'js2-minor-mode)
+(add-hook 'js-mode-hook 'hs-minor-mode)
+(add-hook 'web-mode 'hs-minor-mode)

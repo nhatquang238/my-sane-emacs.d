@@ -23,6 +23,8 @@
 (load "~/.emacs.d/cfg-linum-relative.el")
 (load "~/.emacs.d/cfg-web-mode.el")
 (load "~/.emacs.d/cfg-emmet-mode.el")
+;; (load "~/.emacs.d/cfg-highlight-chars.el")
+(load "~/.emacs.d/cfg-whitespace-cleanup-mode.el")
 ;; language specific
 (load "~/.emacs.d/cfg-jedi.el")
 (load "~/.emacs.d/cfg-coffee.el")

@@ -6,6 +6,9 @@
 (global-set-key (kbd "C-x f") 'projectile-find-file)
 ;; switch-window
 (global-set-key (kbd "C-x o") 'switch-window)
+;; wind-move
+(global-set-key (kbd "C-x n") 'windmove-right)
+(global-set-key (kbd "C-x p") 'windmove-left)
 ;; smex
 (global-set-key (kbd "M-x") 'smex)
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
@@ -16,3 +19,6 @@
 (global-set-key (kbd "C-x M-i") 'helm-multi-swoop-all)
 ;; ace-jump-mode
 (global-set-key (kbd "C-c SPC") 'ace-jump-mode)
+;; the horrible hs-minor-mode
+(global-set-key (kbd "C-c C-s C-h") 'hs-hide-block)
+(global-set-key (kbd "C-c C-s C-s") 'hs-show-block)

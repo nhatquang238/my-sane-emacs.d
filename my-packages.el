@@ -22,7 +22,6 @@
     helm-ag
     undo-tree
     yasnippet
-    magit
     aggressive-indent
     discover-my-major
     guide-key
@@ -43,6 +42,7 @@
 	tern
 	tern-auto-complete
 	json-mode
+    highlight-chars
     ) "a list of packages to install at launch.")
 
 (require 'cl)

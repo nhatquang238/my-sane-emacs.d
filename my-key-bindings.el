@@ -22,3 +22,7 @@
 ;; the horrible hs-minor-mode
 (global-set-key (kbd "C-c C-s C-h") 'hs-hide-block)
 (global-set-key (kbd "C-c C-s C-s") 'hs-show-block)
+;; navigate to beginning and end of expression
+(global-set-key (kbd "C-M-a") 'sp-beginning-of-sexp)
+(global-set-key (kbd "C-M-e") 'sp-end-of-sexp)
+(global-set-key (kbd "C-M-k") 'sp-kill-sexp)

@@ -43,6 +43,7 @@
 	tern-auto-complete
 	json-mode
     highlight-chars
+    smartparens
     ) "a list of packages to install at launch.")
 
 (require 'cl)

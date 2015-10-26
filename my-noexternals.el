@@ -7,7 +7,7 @@
 (defalias 'yes-or-no-p 'y-or-n-p)
 
 ;; auto close bracket
-(electric-pair-mode 1)
+;; (electric-pair-mode 1)
 
 ;; tab to complete, then indent
 (setq tab-always-indent 'complete)

@@ -31,4 +31,5 @@
 (load "~/.emacs.d/cfg-coffee.el")
 (load "~/.emacs.d/cfg-javascript.el")
 (load "~/.emacs.d/cfg-jsx.el")
+(load "~/.emacs.d/cfg-css.el")
 ;;;;

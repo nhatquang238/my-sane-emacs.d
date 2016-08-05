@@ -1,9 +1,9 @@
 ;; Package libraries initialization
 (require 'package)
 (add-to-list 'package-archives
-	     '("melpa" . "http://melpa.milkbox.net/packages/") t)
+       '("melpa" . "http://melpa.milkbox.net/packages/") t)
 (add-to-list 'package-archives
-	     '("marmalade" . "http://marmalade-repo.org/packages/") t)
+       '("marmalade" . "http://marmalade-repo.org/packages/") t)
 (package-initialize)
 
 ;; List of packages to be installed
@@ -34,14 +34,14 @@
     emmet-mode
     web-mode
     ws-butler
-	js2-mode
-	ac-js2
-	flycheck
-	exec-path-from-shell
-	react-snippets
-	tern
-	tern-auto-complete
-	json-mode
+    js2-mode
+    ac-js2
+    flycheck
+    exec-path-from-shell
+    react-snippets
+    tern
+    tern-auto-complete
+    json-mode
     highlight-chars
     smartparens
     ) "a list of packages to install at launch.")
@@ -51,9 +51,9 @@
 ;; fn to check if all packages are installed
 (defun packages-installed-p ()
   (loop for p in required-packages
-	when (not (package-installed-p p)) do (return nil)
-	finally (return t)
-	)
+  when (not (package-installed-p p)) do (return nil)
+  finally (return t)
+  )
 )
 
 ;; install missing packages

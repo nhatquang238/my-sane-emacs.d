@@ -14,7 +14,10 @@
 (add-to-list 'completion-styles 'initials t)
 
 ;; tab config
-(custom-set-variables '(tab-stop-list (quote (4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))
+(custom-set-variables '(tab-stop-list (quote (2 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))
 (setq-default tab-width 4)
 (setq-default indent-tabs-mode nil)
-(add-hook 'before-save-hook (lambda () (untabify (point-min) (point-max))))
+(add-hook 'write-file-hooks
+          (lambda () (if (not indent-tabs-mode)
+                         (untabify (point-min) (point-max)))
+            nil ))

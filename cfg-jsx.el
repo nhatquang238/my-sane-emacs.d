@@ -43,3 +43,5 @@
 
 (add-hook 'jsx-mode-hook
           (lambda () (auto-complete-mode 1)))
+
+(setq web-mode-content-types-alist '(("jsx" . "\\.js[x]?\\'")))

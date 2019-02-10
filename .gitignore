@@ -1,0 +1,9 @@
+.python-environments
+*~
+project-explorer-cache
+elpa
+.mc-lists.el
+*.dat
+*.eld
+*.cache
+smex-items

@@ -26,9 +26,10 @@
 ;; (load "~/.emacs.d/cfg-highlight-chars.el")
 (load "~/.emacs.d/cfg-whitespace-cleanup-mode.el")
 (load "~/.emacs.d/cfg-smartparens.el")
+(load "~/.emacs.d/cfg-expand-region.el")
 ;; language specific
 (load "~/.emacs.d/cfg-jedi.el")
-(load "~/.emacs.d/cfg-coffee.el")
+;; (load "~/.emacs.d/cfg-coffee.el")
 (load "~/.emacs.d/cfg-javascript.el")
 (load "~/.emacs.d/cfg-jsx.el")
 (load "~/.emacs.d/cfg-css.el")

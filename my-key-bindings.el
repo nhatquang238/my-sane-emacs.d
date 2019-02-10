@@ -26,3 +26,5 @@
 (global-set-key (kbd "C-M-a") 'sp-beginning-of-sexp)
 (global-set-key (kbd "C-M-e") 'sp-end-of-sexp)
 (global-set-key (kbd "C-M-k") 'sp-kill-sexp)
+;; expand-region
+(global-set-key (kbd "C-M-_") 'er/expand-region)

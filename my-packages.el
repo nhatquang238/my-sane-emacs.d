@@ -44,6 +44,8 @@
     json-mode
     highlight-chars
     smartparens
+    expand-region
+    sql-indent
     ) "a list of packages to install at launch.")
 
 (require 'cl)

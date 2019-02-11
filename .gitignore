@@ -6,4 +6,5 @@ elpa
 *.dat
 *.eld
 *.cache
+*.data
 smex-items

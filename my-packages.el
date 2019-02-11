@@ -42,10 +42,11 @@
     tern
     tern-auto-complete
     json-mode
-    highlight-chars
+    ;; highlight-chars
     smartparens
     expand-region
     sql-indent
+    whitespace-cleanup-mode
     ) "a list of packages to install at launch.")
 
 (require 'cl)

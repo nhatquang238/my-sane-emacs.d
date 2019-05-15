@@ -4,6 +4,7 @@
 (global-set-key (kbd "C-M-b") 'scroll-other-window-down)
 ;; projectile
 (global-set-key (kbd "C-x f") 'projectile-find-file)
+(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
 ;; switch-window
 (global-set-key (kbd "C-x o") 'switch-window)
 ;; wind-move
@@ -14,17 +15,16 @@
 (global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; helm
 (global-set-key (kbd "M-i") 'helm-swoop)
-(global-set-key (kbd "M-I") 'helm-swoop-back-to-last-point)
-(global-set-key (kbd "C-c M-i") 'helm-multi-swoop)
-(global-set-key (kbd "C-x M-i") 'helm-multi-swoop-all)
+(global-set-key (kbd "C-c M-i") 'helm-ag-project-root)
 ;; ace-jump-mode
 (global-set-key (kbd "C-c SPC") 'ace-jump-mode)
 ;; the horrible hs-minor-mode
-(global-set-key (kbd "C-c C-s C-h") 'hs-hide-block)
-(global-set-key (kbd "C-c C-s C-s") 'hs-show-block)
+(global-set-key (kbd "C-c _") 'hs-hide-level)
+(global-set-key (kbd "C-c -") 'hs-hide-block)
+(global-set-key (kbd "C-c =") 'hs-show-block)
 ;; navigate to beginning and end of expression
 (global-set-key (kbd "C-M-a") 'sp-beginning-of-sexp)
 (global-set-key (kbd "C-M-e") 'sp-end-of-sexp)
 (global-set-key (kbd "C-M-k") 'sp-kill-sexp)
 ;; expand-region
-(global-set-key (kbd "C-M-_") 'er/expand-region)
+(global-set-key (kbd "C-M-w") 'er/expand-region)

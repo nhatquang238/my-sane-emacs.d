@@ -1,3 +1,3 @@
 (require 'projectile)
-(projectile-global-mode)
+(projectile-mode +1)
 (setq projectile-enable-caching t)

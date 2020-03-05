@@ -1,9 +1,9 @@
 ;; Package libraries initialization
 (require 'package)
 (add-to-list 'package-archives
-       '("melpa" . "http://melpa.milkbox.net/packages/") t)
+             '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives
-       '("marmalade" . "http://marmalade-repo.org/packages/") t)
+             '("gnu" . "https://elpa.gnu.org/packages/") t)
 (package-initialize)
 
 ;; List of packages to be installed
@@ -47,6 +47,7 @@
     expand-region
     sql-indent
     whitespace-cleanup-mode
+    haskell-mode
     ) "a list of packages to install at launch.")
 
 (require 'cl)

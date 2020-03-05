@@ -18,7 +18,7 @@
 (load "~/.emacs.d/cfg-helm-projectile.el")
 (load "~/.emacs.d/cfg-aggressive-indent.el")
 (load "~/.emacs.d/cfg-guide-key.el")
-(load "~/.emacs.d/cfg-evil-nerd-commenter.el")
+;; (load "~/.emacs.d/cfg-evil-nerd-commenter.el")
 (load "~/.emacs.d/cfg-org-mode.el")
 (load "~/.emacs.d/cfg-linum-relative.el")
 (load "~/.emacs.d/cfg-web-mode.el")

@@ -48,6 +48,7 @@
     sql-indent
     whitespace-cleanup-mode
     haskell-mode
+    haxe-mode
     ) "a list of packages to install at launch.")
 
 (require 'cl)

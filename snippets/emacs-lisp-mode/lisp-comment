@@ -1,0 +1,9 @@
+# -*- mode: snippet -*-
+# contributor: nhatquang238 (nhatquang238@gmail.com)
+# name: Comment structure for lisp code
+# key: lisp-comment
+# --
+;;; $1 --- ${2: Summary}
+;;; Code:
+$0
+;;; $1: ends here

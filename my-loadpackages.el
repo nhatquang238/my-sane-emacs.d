@@ -1,3 +1,6 @@
+;;; my-loadpackages --- storing all my custom packages config
+;;; Code:
+
 ;;;; loading packages duh!
 (load "~/.emacs.d/my-packages.el")
 
@@ -10,8 +13,7 @@
 (load "~/.emacs.d/cfg-flx-ido.el")
 (load "~/.emacs.d/cfg-ido-vertical.el")
 (load "~/.emacs.d/cfg-auto-complete.el")
-(load "~/.emacs.d/cfg-smart-mode-line.el")
-(load "~/.emacs.d/cfg-nyan.el")
+;; (load "~/.emacs.d/cfg-smart-mode-line.el") ;; replace with doom mode line
 (load "~/.emacs.d/cfg-undo-tree.el")
 (load "~/.emacs.d/cfg-helm.el")
 (load "~/.emacs.d/cfg-helm-swoop.el")
@@ -29,8 +31,10 @@
 (load "~/.emacs.d/cfg-expand-region.el")
 ;; language specific
 (load "~/.emacs.d/cfg-jedi.el")
-;; (load "~/.emacs.d/cfg-coffee.el")
 (load "~/.emacs.d/cfg-javascript.el")
 (load "~/.emacs.d/cfg-jsx.el")
 (load "~/.emacs.d/cfg-css.el")
+(load "~/.emacs.d/cfg-haxe.el")
 ;;;;
+
+;;; my-loadpackages: ends here

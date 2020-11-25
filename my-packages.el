@@ -9,6 +9,7 @@
 ;; List of packages to be installed
 (defvar required-packages
   '(
+    use-package
     switch-window
     smex
     projectile
@@ -27,7 +28,6 @@
     guide-key
     evil-nerd-commenter
     smart-mode-line
-    nyan-mode
     helm-projectile
     ace-jump-mode
     linum-relative
@@ -42,7 +42,6 @@
     tern
     tern-auto-complete
     json-mode
-    ;; highlight-chars
     smartparens
     expand-region
     sql-indent
@@ -73,4 +72,5 @@
       (package-install p)
       )
     )
-)
+  )
+;;;;

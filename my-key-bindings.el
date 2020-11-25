@@ -1,18 +1,8 @@
 ;; Built-in
-(global-set-key (kbd "C-c d") 'kill-whole-line)
-(global-set-key (kbd "C-c C-x M-x") 'execute-extended-command) ;; old M-x
 (global-set-key (kbd "C-M-b") 'scroll-other-window-down)
-;; projectile
-(global-set-key (kbd "C-x f") 'projectile-find-file)
-(define-key projectile-mode-map (kbd "C-c p") 'projectile-command-map)
-;; switch-window
-(global-set-key (kbd "C-x o") 'switch-window)
 ;; wind-move
 (global-set-key (kbd "C-x n") 'windmove-right)
 (global-set-key (kbd "C-x p") 'windmove-left)
-;; smex
-(global-set-key (kbd "M-x") 'smex)
-(global-set-key (kbd "M-X") 'smex-major-mode-commands)
 ;; helm
 (global-set-key (kbd "M-i") 'helm-swoop)
 (global-set-key (kbd "C-c M-i") 'helm-ag-project-root)

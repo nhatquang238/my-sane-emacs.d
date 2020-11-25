@@ -17,10 +17,7 @@
     ("3c83b3676d796422704082049fc38b6966bcad960f896669dfc21a7a37a748fa" "a27c00821ccfd5a78b01e4f35dc056706dd9ede09a8b90c6955ae6a390eb1c1e" default)))
  '(package-selected-packages
    (quote
-    (haxe-mode direx magit origami whitespace-cleanup-mode ws-butler web-mode undo-tree tern-auto-complete switch-window sql-indent smex smartparens smart-mode-line react-snippets nyan-mode linum-relative json-mode jedi ido-vertical-mode helm-swoop helm-projectile helm-ag guide-key flycheck flx-ido expand-region exec-path-from-shell evil-nerd-commenter emmet-mode discover-my-major aggressive-indent ace-jump-mode ac-js2)))
- '(tab-stop-list
-   (quote
-    (2 4 8 12 16 20 24 28 32 36 40 44 48 52 56 60 64 68 72 76 80 84 88 92 96 100 104 108 112 116 120))))
+    (col-highlight vline beacon haxe-mode direx magit origami whitespace-cleanup-mode ws-butler web-mode undo-tree tern-auto-complete switch-window sql-indent smex smartparens smart-mode-line react-snippets nyan-mode linum-relative json-mode jedi ido-vertical-mode helm-swoop helm-projectile helm-ag guide-key flycheck flx-ido expand-region exec-path-from-shell evil-nerd-commenter emmet-mode discover-my-major aggressive-indent ace-jump-mode ac-js2))))
 
 (load "~/.emacs.d/my-loadpackages.el")
 

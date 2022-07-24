@@ -1,10 +1,12 @@
+;; (setq package-enable-at-startup nil)
 ;; Package libraries initialization
 (require 'package)
 (add-to-list 'package-archives
              '("melpa-stable" . "https://stable.melpa.org/packages/") t)
 (add-to-list 'package-archives
              '("gnu" . "https://elpa.gnu.org/packages/") t)
-(package-initialize)
+(if (version< emacs-version "27.0")
+    (package-initialize))
 
 ;; List of packages to be installed
 (defvar required-packages
@@ -26,7 +28,6 @@
     aggressive-indent
     discover-my-major
     guide-key
-    evil-nerd-commenter
     smart-mode-line
     helm-projectile
     ace-jump-mode
@@ -35,7 +36,6 @@
     web-mode
     ws-butler
     js2-mode
-    ac-js2
     flycheck
     exec-path-from-shell
     react-snippets
@@ -50,6 +50,7 @@
     haxe-mode
     ) "a list of packages to install at launch.")
 
+(setq byte-compile-warnings '(cl-functions))
 (require 'cl)
 
 ;; fn to check if all packages are installed
@@ -63,9 +64,12 @@
 ;; install missing packages
 (unless (packages-installed-p)
   ;; check for new packages
-  (message "%s" "Emacs is not refreshing its package db...")
-  (package-refresh-contents)
-  (message "%s" " done.")
+  (unless package-archive-contents
+    (message "%s" "Emacs is refreshing its package db...")
+    (package-refresh-contents)
+    (message "%s" " done.")
+    )
+
   ;; install missing packages
   (dolist (p required-packages)
     (when (not (package-installed-p p))

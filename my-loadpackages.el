@@ -1,9 +1,6 @@
 ;;; my-loadpackages --- storing all my custom packages config
 ;;; Code:
 
-;;;; loading packages duh!
-(load "~/.emacs.d/my-packages.el")
-
 ;;;; loading dependency setup
 ;; utils
 (load "~/.emacs.d/cfg-exec-path-from-shell.el")
@@ -13,14 +10,12 @@
 (load "~/.emacs.d/cfg-flx-ido.el")
 (load "~/.emacs.d/cfg-ido-vertical.el")
 (load "~/.emacs.d/cfg-auto-complete.el")
-;; (load "~/.emacs.d/cfg-smart-mode-line.el") ;; replace with doom mode line
 (load "~/.emacs.d/cfg-undo-tree.el")
 (load "~/.emacs.d/cfg-helm.el")
 (load "~/.emacs.d/cfg-helm-swoop.el")
 (load "~/.emacs.d/cfg-helm-projectile.el")
 (load "~/.emacs.d/cfg-aggressive-indent.el")
 (load "~/.emacs.d/cfg-guide-key.el")
-;; (load "~/.emacs.d/cfg-evil-nerd-commenter.el")
 (load "~/.emacs.d/cfg-org-mode.el")
 (load "~/.emacs.d/cfg-linum-relative.el")
 (load "~/.emacs.d/cfg-web-mode.el")

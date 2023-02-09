@@ -8,3 +8,7 @@ elpa
 *.cache
 *.data
 smex-items
+eshell
+ido.last
+transient
+copilot.el

@@ -48,6 +48,12 @@
     whitespace-cleanup-mode
     haskell-mode
     haxe-mode
+    sly
+    rust-mode
+    flycheck-rust
+    s
+    dash
+    editorconfig
     ) "a list of packages to install at launch.")
 
 (setq byte-compile-warnings '(cl-functions))

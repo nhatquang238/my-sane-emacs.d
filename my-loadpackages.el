@@ -25,11 +25,13 @@
 (load "~/.emacs.d/cfg-smartparens.el")
 (load "~/.emacs.d/cfg-expand-region.el")
 ;; language specific
-(load "~/.emacs.d/cfg-jedi.el")
+;; (load "~/.emacs.d/cfg-jedi.el")
 (load "~/.emacs.d/cfg-javascript.el")
 (load "~/.emacs.d/cfg-jsx.el")
 (load "~/.emacs.d/cfg-css.el")
 (load "~/.emacs.d/cfg-haxe.el")
+(load "~/.emacs.d/cfg-lisp.el")
+(load "~/.emacs.d/cfg-rust.el")
 ;;;;
 
 ;;; my-loadpackages: ends here

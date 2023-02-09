@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: script
+# key: script
+# --
+async function setup() {      
+}
+
+async function run() {
+      await setup();
+
+      $0
+}
+
+await run();

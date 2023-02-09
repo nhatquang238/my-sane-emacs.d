@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: func
+# key: func
+# --
+/* type: $1 -> $2 */
+function $3($4) {
+         $0
+}

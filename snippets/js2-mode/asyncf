@@ -1,0 +1,8 @@
+# -*- mode: snippet -*-
+# name: asyncf
+# key: asyncf
+# --
+/* type: $1 -> $2 */
+async function $3($4) {
+      $0
+}

@@ -24,6 +24,7 @@
 (load "~/.emacs.d/cfg-whitespace-cleanup-mode.el")
 (load "~/.emacs.d/cfg-smartparens.el")
 (load "~/.emacs.d/cfg-expand-region.el")
+(load "~/.emacs.d/cfg-copilot.el")
 ;; language specific
 ;; (load "~/.emacs.d/cfg-jedi.el")
 (load "~/.emacs.d/cfg-javascript.el")
@@ -32,6 +33,7 @@
 (load "~/.emacs.d/cfg-haxe.el")
 (load "~/.emacs.d/cfg-lisp.el")
 (load "~/.emacs.d/cfg-rust.el")
+(load "~/.emacs.d/cfg-yaml-mode.el")
 ;;;;
 
 ;;; my-loadpackages: ends here

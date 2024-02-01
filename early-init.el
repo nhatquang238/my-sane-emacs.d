@@ -52,8 +52,10 @@
     rust-mode
     flycheck-rust
     s
+    jsonrpc
     dash
     editorconfig
+    yaml-mode
     ) "a list of packages to install at launch.")
 
 (setq byte-compile-warnings '(cl-functions))

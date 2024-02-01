@@ -5,6 +5,7 @@
 (setq auto-mode-alist (cons '("\\.js$" . web-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.ts$" . web-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.tsx$" . web-mode) auto-mode-alist))
+(setq auto-mode-alist (cons '("\\.svelte$" . web-mode) auto-mode-alist))
 (setq auto-mode-alist (cons '("\\.hx$" . haxe-mode) auto-mode-alist))
 (add-hook 'python-mode-hook 'ws-butler-mode)
 ;; (add-hook 'coffee-mode-hook 'ws-butler-mode)
